@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Post</title>
+    <link rel="stylesheet" href="./frontend/assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mt-5">
+                <div class="card">
+                    <div class="card-header alert alert-primary text-center">
+                        <h4>Medium</h4>
+                    </div>
+                    <form action="" id="blogForm">
+                   <div class="card-body">
+                            <div class="form-group">
+                                <label for="title">Title*</label>
+                                <input type="text" class="form-control" id="title">
+                            </div>
+                            <div class="form-group">
+                                <label for="content">Content*</label>
+                                <input type="text" class="form-control" id="content">
+                            </div>
+
+                   </div>
+                        <div class="card-footer">
+                            <button class="btn btn-block btn-primary" id="addPost">Add Post</button>
+                            <button class="btn btn-block btn-danger d-none" id="updatePost" type="button">Update
+                                Post</button>
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row" id="postContainer">
+
+            <!-- <div class="col-md-4 mb-4 mt-5">
+              <div class="card">
+                <div class="card-header">
+                     <h4>title</h4>
+                </div>
+                 <div class="card-body">
+                  <h3>Content</h3>
+                      <p>Content</p>
+                 </div>
+
+                 <div class="card-footer d-flex justify-content-between ">
+                      <button class="btn btn-inline-block btn-outline-primary">Edit</button>
+                      <button class="btn btn-inline-block btn-outline-warning">Remove</button>
+                   </div>
+              </div>
+         </div> -->
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./frontend/assets/js/app.js"></script>
+</body>
+
+</html>
